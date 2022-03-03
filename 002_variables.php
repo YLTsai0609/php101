@@ -24,7 +24,7 @@ echo "<br>";
 
 function myTest($x)
 {
-	$y=10; // local
+	$y=10;
 	echo "x :$x";
 	echo "<br>";
 	echo "y :$y";

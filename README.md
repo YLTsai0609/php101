@@ -53,3 +53,20 @@ https://www.runoob.com/try/runcode.php?filename=demo_intro&type=php
 
 
 [PHP 教程](https://www.runoob.com/php/php-tutorial.html)
+
+
+# 套件管理工具 - Composer
+
+[composer 介紹](https://szlforgithub.github.io/post/composer/)
+
+
+Composer - php 等同於 pip - python
+
+
+`require 'vendor/autoload.php';`
+
+`composer -t` (versioning)
+
+`composer init` - init 一個 composer.json
+
+`composer install` - 根據專案內的(路徑之下) `composer.lock`，如果找不到，會找 `composer.json` 產生 `lock`，並安裝
