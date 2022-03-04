@@ -17,6 +17,17 @@ class MyClass
 		echo $this->protected;
 		echo $this->private;
 	}
+
+	private function classprivate()
+	{
+		echo "Hi";
+	}
+}
+
+class ChildClass extends MyClass
+{
+
+
 }
 
 $obj = new MyClass();
@@ -24,3 +35,6 @@ echo $obj->public; //可以跑
 // echo $obj->protected; //不能跑
 // echo $obj->private; //不能跑
 $obj->printHello();
+
+$childobj = new ChildClass();
+echo $childobj->classprivate();

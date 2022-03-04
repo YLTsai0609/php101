@@ -15,7 +15,7 @@ https://www.runoob.com/php/php-intro.html
 6. 可收發 cookie, crud 資料庫, 可輸出圖像、pdf、flash、HTML, XHTML, XML
 
 
-# Install
+# Installation
 
 What you need 
 
@@ -70,3 +70,18 @@ Composer - php 等同於 pip - python
 `composer init` - init 一個 composer.json
 
 `composer install` - 根據專案內的(路徑之下) `composer.lock`，如果找不到，會找 `composer.json` 產生 `lock`，並安裝
+
+
+# Py2P
+
+|python|php|note|
+|------|---|----|
+|import|include / require||
+|self|this|
+|cls|self|
+|dict|array|
+|list|array|
+|self.|this->|物件呼叫屬性、方法|
+|cls.|self::|類別(尚未實例話化)呼叫屬性、方法|
+
+[node.js, python, php, ruby Scripting Language 語法對照表](https://hyperpolyglot.org/scripting)
