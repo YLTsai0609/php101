@@ -82,6 +82,8 @@ Composer - php 等同於 pip - python
 |dict|array|
 |list|array|
 |self.|this->|物件呼叫屬性、方法|
-|cls.|self::|類別(尚未實例話化)呼叫屬性、方法|
+|cls.|self::|類別(尚未實例話化)呼叫屬性、方法，`::` is a scope resulition operator in `php`|
+
+
 
 [node.js, python, php, ruby Scripting Language 語法對照表](https://hyperpolyglot.org/scripting)
